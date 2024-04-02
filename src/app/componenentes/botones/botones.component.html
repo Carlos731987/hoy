@@ -1,7 +1,7 @@
 <hr>
 <h1>COMPONENTE BOTONES</h1>
-<!-- <p>Componente botones <br>
-{{this.tipo}}</p>
-<input type="button" (click)="cambiarTipo()" value="cambiar">
-<input [type]="this.tipo">
-<input type="text" [(ngModel)]="this.tipo" value="cambiar"> -->
+<p>Componente botones <br>
+{{this.boton.tipo}}</p>
+<input type="button" (click)="this.boton.cambiarTipo()" value="cambiar">
+<input [type]="this.boton.tipo">
+<input type="text" [(ngModel)]="this.boton.tipo" value="cambiar">
