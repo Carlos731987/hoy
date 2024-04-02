@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-botones',
   standalone: true,
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './botones.component.html',
   styleUrl: './botones.component.css'
 })
@@ -12,7 +13,7 @@ export class BotonesComponent {
   tipo: string = "text";
 
   cambiarTipo(): void {
-
+    
     if (this.tipo == "range") {
       this.tipo = "text";
       return;
@@ -37,6 +38,5 @@ export class BotonesComponent {
       this.tipo = "range";
       return;
     }
-
   }
 }
