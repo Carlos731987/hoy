@@ -4,6 +4,7 @@ import { Botones2Component } from './componenentes/botones2/botones2.component';
 import { BotonesComponent } from './componenentes/botones/botones.component';
 import { Botones3Component } from './componenentes/botones-3/botones-3.component';
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
